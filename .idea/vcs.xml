@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="VcsDirectoryMappings">
+    <mapping directory="$PROJECT_DIR$/DCRNN" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/DCRNN_PyTorch" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/GMAN" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/Graph-WaveNet" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/STGCN_IJCAI-18" vcs="Git" />
+  </component>
+</project>
