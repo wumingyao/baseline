@@ -8,7 +8,7 @@
 
 import os
 
-os.environ["CUDA_VISIBLE_DEVICES"] = "7"
+os.environ["CUDA_VISIBLE_DEVICES"] = "2"
 from os.path import join as pjoin
 
 import tensorflow as tf

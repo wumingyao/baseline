@@ -115,8 +115,10 @@ def model_test(inputs, batch_size, n_his, n_pred, inf_mode, path='./output/'):
             raise ValueError(f'ERROR: test mode "{inf_mode}" is not defined.')
 
         x_test, x_stats = inputs.get_data('test'), inputs.get_stats()
+        x_test=x_test[:20]
 
         y_test, len_test = multi_pred(test_sess, pred, x_test, batch_size, n_his, n_pred, step_idx)
+
         evl = evaluation(x_test[0:len_test, step_idx + n_his, :, :], y_test, x_stats)
 
         for ix in tmp_idx:
